@@ -120,7 +120,6 @@ header nav li a:hover{
     text-align: center;
     color:#27697C;
     border: 1px solid;
-    border-radius: ;
     margin-top: 20px;
     padding: 15px;
     display: block;
@@ -273,6 +272,7 @@ hr{
 }
 
 #section3 h1{
+   
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
@@ -316,6 +316,126 @@ hr{
     justify-self: flex-start;
     background-color: #FFFFFF;
     
+}
+
+/* SECTION 4 */
+#section4{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.art4 h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    vertical-align: middle;
+    color: #27697C;
+     margin-top: 80px;
+
+}
+.art4 h2{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 34.5px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+
+}
+
+#section4 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+#section4 div img{
+    max-width: 387px;
+    max-height: 290px;
+    width: 100%;
+}
+#section4 div p{
+    font-family:" Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.4px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 40px;
+
+}
+
+#section4 a{
+     font-weight: 500;
+    line-height: 18.4px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid;
+    padding: 15px;
+    background-color:#27697C ;
+    display: block;
+    place-self: center;
+    margin-top: 40px;
+    margin-left: 75px;
+
+}
+
+/* SECTION 5 */
+#section5{
+    background-color: #859399;
+}
+#section5 form{
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 400px;
+}
+#section5 h1{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top: 50px;
+
+}
+#section5 h2{
+    font-family:" Montserrat",sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 34.5px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+
+.input2{
+    width: 660px;
+}
+
+textarea{
+    max-width: 660px;
+    width: 660px;
+
+}
+::placeholder{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
 }
 
 
