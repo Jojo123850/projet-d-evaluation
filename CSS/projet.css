@@ -392,13 +392,11 @@ hr{
     max-width: 800px;
     margin: auto;
     display: grid;
-    gap: 20px;
 }
 .div1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    max-width: 400px;
 }
 #section5 h1{
     font-family: "Montserrat",sans-serif;
