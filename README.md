@@ -11,11 +11,11 @@ Le site est destiné à un usage informatif et commercial.
 
 ## Les technologies utilisées
 Pour ce site, nous avons utilisés:
-- HTMML
+- HTML
 - CSS
 - Font awesome
 - Google font
-Et adapté le site en faisant du responsive desktop, tablette et mobile.
+- Responsive desktop, tablette et mobile adaptés
 
 ##  Installation
 
