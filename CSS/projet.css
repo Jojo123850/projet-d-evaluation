@@ -365,8 +365,9 @@ hr{
 }
 
 #section4 div{
-    display: flex;
-    transition: transform 0.3s ease;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
 }
 #section4 div img{
     max-width: 387px;
