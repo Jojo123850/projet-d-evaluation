@@ -66,7 +66,13 @@ header nav li a{
 
 }
 header nav li a:hover{
-    color: #27697CE3;
+    color: #FFFFFF;
+    background-color: #27697C;
+    border: 1px solid;
+   padding-top: 65px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .up a{
@@ -221,8 +227,7 @@ hr{
    max-width: 700px;
    max-height: 600px;
    width: 100%;
-   object-fit: cover;
- 
+   object-fit: cover; 
 }
 
 .div2{
@@ -335,6 +340,10 @@ hr{
     background-color: #FFFFFF;
     
 }
+#section3 .btn:hover{
+    color: #FFFFFF;
+    background-color: #27697C;
+}
 
 /* SECTION 4 */
 #section4{
@@ -389,6 +398,7 @@ hr{
 
 }
 
+
 #section4 a{
       font-weight: 500;
     line-height: 18.4px;
@@ -402,6 +412,11 @@ hr{
     justify-self: center; 
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+#section4 a:hover{
+    color: #27697C;
+    background-color: #FFFFFF;
 }
 
 /* SECTION 5 */
