@@ -524,7 +524,7 @@ footer a{
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:770px) {
     header div{
         display: flex;
         justify-content: space-between;
