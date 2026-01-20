@@ -5,6 +5,9 @@ a{
     text-decoration: none;
     list-style: none;
 }
+#burger{
+    display: none;
+}
 p{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -370,33 +373,45 @@ hr{
 }
 
 #section4 a{
-     font-weight: 500;
+      font-weight: 500;
     line-height: 18.4px;
     text-align: center;
     color: #FFFFFF;
     border: 1px solid;
-    padding: 15px;
-    background-color:#27697C ;
+    padding: 15px 30px;
+    background-color: #27697C;
     display: block;
-    place-self: center;
+    grid-column: 1 / -1;  
+    justify-self: center; 
     margin-top: 40px;
-    margin-left: 75px;
-
+    margin-bottom: 40px;
 }
 
 /* SECTION 5 */
 #section5{
     background-color: #859399;
 }
+.secdiv5{
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
 #section5 form{
-    max-width: 800px;
+    max-width: 680px;
+    width: 100%;
     margin: auto;
-    display: grid;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
 }
 .div1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+   display: flex;
+    gap: 20px;
+    
+}
+.div1 input {
+  flex: 1;           
+  min-width: 0;      
 }
 #section5 h1{
     font-family: "Montserrat",sans-serif;
@@ -419,14 +434,19 @@ hr{
 
 }
 
-.input2{
-    width: 660px;
+.input0,
+.input2,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid; 
+  border-color: #27697C;
 }
-
-textarea{
-    max-width: 660px;
-    width: 660px;
-
+.input2,
+textarea {
+  margin: 20px 0;
+  
 }
 ::placeholder{
     font-family: "Open Sans",sans-serif;
@@ -434,8 +454,33 @@ textarea{
     font-size: 16px;
     line-height: 100%;
     color: #000000;
+    padding: 12px;
+
+}
+.div20{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+
 }
 
+#section5 .btn{
+    font-weight: 500;
+    line-height: 18.4px;
+    text-align: center;
+    color:#27697C;
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    justify-self: flex-start;
+    background-color: #FFFFFF;
+}
+#section5 .btn:hover{
+    color: #FFFFFF;
+    background-color: #27697C;
+}
 
 /* FOOTER */
 footer{
@@ -459,4 +504,40 @@ footer p{
 }
 footer a{
     color: #FFFFFF;
+}
+
+/* RESPONSIVE TABLETTE */
+@media screen and (max-width:1024px) {
+    header{
+        justify-content: space-between;
+    }
+    header nav{
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav{
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+    #section2 .div1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   #section2 .div1 img{
+    margin-top:40px;
+   }
+    #section3 .art0{
+        display: none;
+    }
 }
